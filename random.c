@@ -6,7 +6,6 @@ const int max = 26;
 
 char randchar()
 {
-
     char alphabets[] = "ABCDEFGHIJKLMNOPQRSTUVXWYZ";
     int randIndex = rand() % max;
     char random_char = alphabets[randIndex];
